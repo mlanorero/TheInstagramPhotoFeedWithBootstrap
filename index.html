@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/beb4b44f16.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>The Instagram Photo Feed with Bootstrap</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light justify-content-between">
+            <a class="navbar-brand">Instagram</a>
+            <form class="form-inline">
+                <div class="dropdown">
+                    <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-success mr-2" data-toggle="modal" data-target="#exampleModal">
+                            Create a new post
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="container">
+                                    <input class="form-control form-control-lg w-100" type="text">
+                                </div>
+                                <div class="ml-3">
+                                    <i class="fas fa-camera-retro"></i>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-success">Publish</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+              
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-align-justify"></i></button>
+            </form>
+          </nav>
+    </header>
+            
+     <!--botones navegacion entre index y second-->
+     <div class="caja-cambio text-center py-4">
+        <a type="button" class="cambio btn btn-outline-secondary mr-2" href="index.html">
+            <i class="fas fa-th"></i>
+        </a>
+        <a type="button" class="cambio btn btn-outline-secondary" href="index2.html">
+            <i class="fas fa-square"></i>
+        </a>
+    </div>
+
+
+
+    
+
+    <main class="container p-5">
+        <div class="row justify-content-center">
+            <div class="col-6 p-1">
+                <div class="card mb-3 w-100" >
+                    <div class="card-header bg-transparent border-secondary">My first photo</div>
+                    <div class="card-body text-secondary">
+                      <img src="img/image1.png" alt="">
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary"><strong>23 Likes</strong><br>This is my first photo of the feed, this is a multi line comment for testing purpose. I am learning to code with #BreatheCode </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-6 p-1">
+                <div class="card mb-3 w-100" >
+                    <div class="card-header bg-transparent border-secondary">My first photo</div>
+                    <div class="card-body text-secondary">
+                      <img src="img/image1.png" alt="">
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary"><strong>23 Likes</strong><br>This is my first photo of the feed, this is a multi line comment for testing purpose. I am learning to code with #BreatheCode </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-6 p-1">
+                <div class="card mb-3 w-100" >
+                    <div class="card-header bg-transparent border-secondary">My first photo</div>
+                    <div class="card-body text-secondary">
+                      <img src="img/image1.png" alt="">
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary"><strong>23 Likes</strong><br>This is my first photo of the feed, this is a multi line comment for testing purpose. I am learning to code with #BreatheCode </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-6 p-1">
+                <div class="card mb-3 w-100" >
+                    <div class="card-header bg-transparent border-secondary">My first photo</div>
+                    <div class="card-body text-secondary">
+                      <img src="img/image1.png" alt="">
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary"><strong>23 Likes</strong><br>This is my first photo of the feed, this is a multi line comment for testing purpose. I am learning to code with #BreatheCode </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-6 p-1">
+                <div class="card mb-3 w-100" >
+                    <div class="card-header bg-transparent border-secondary">My first photo</div>
+                    <div class="card-body text-secondary">
+                      <img src="img/image1.png" alt="">
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary"><strong>23 Likes</strong><br>This is my first photo of the feed, this is a multi line comment for testing purpose. I am learning to code with #BreatheCode </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-6 p-1">
+                <div class="card mb-3 w-100" >
+                    <div class="card-header bg-transparent border-secondary">My first photo</div>
+                    <div class="card-body text-secondary">
+                      <img src="img/image1.png" alt="">
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary"><strong>23 Likes</strong><br>This is my first photo of the feed, this is a multi line comment for testing purpose. I am learning to code with #BreatheCode </div>
+                  </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
